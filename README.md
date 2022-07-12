@@ -12,6 +12,7 @@ MOBILE is XXX. More info can be found [here](https://www.birtwistlelab.com/).
 ## Instructions
 
 1. Clone this repository from the command-line using 
+
 `git clone --recursive https://github.com/cerdem12/MOBILE.git`
 
 2. Make sure the glmnet package is downloaded and the folder is added to the MATLAB path.
