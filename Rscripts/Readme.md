@@ -1,6 +1,6 @@
 # Image quantification scripts
 
-The scripts here are adapted from the LINCS [repository](github.com/MEP-LINCS/MDD/blob/master/R/MDD_Immunofluorescence_Lvl0Data_Processing.R). 
+The scripts here are adapted from the LINCS [repository](https://github.com/MEP-LINCS/MDD/blob/master/R/MDD_Immunofluorescence_Lvl0Data_Processing.R). 
 
 ## Dependencies and software
 
