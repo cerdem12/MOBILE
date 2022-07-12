@@ -1,7 +1,7 @@
 # MOBILE
 Multi-Omics Binary Integration via Lasso Ensembles (MOBILE)
 
-MOBILE is XXX. More info can be found [here](https://www.birtwistlelab.com/).
+The MOBILE pipeline produces ligand-specific association networks. It integrates multi-omics datasets in a data-driven, biologically-structured manner. The gene-level, ligand-specific association networks are used to nominate differentially enriched pathways. The MOBILE pipeline is also broadly applicable to find condition specific networks using multi-omics datasets. More info can be found [here](https://www.birtwistlelab.com/).
 
 ## Dependencies
 
@@ -21,7 +21,7 @@ MOBILE is XXX. More info can be found [here](https://www.birtwistlelab.com/).
 
 The MOBILE simulation of RPPA-RNAseq inference takes around XXX min for each of FULL or LOGO runs, in a normal desktop/laptop. 
 
-The MOBILE simulation of RPPA-RNAseq inference takes around XXX min for each of FULL or LOGO runs, in a normal desktop/laptop. These simulations are run on Clemson University Palmetto HPC and took around XXX hours for each condition (XXX source info). 
+The RPPA-RNAseq inference simulations were run on Clemson University Palmetto HPC and took around XXX hours for each condition (XXX source info). 
 
 Tested environments include: 
 
