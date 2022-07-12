@@ -6,7 +6,7 @@ MOBILE is XXX. More info can be found [here](https://www.birtwistlelab.com/).
 ## Dependencies
 
 - MATLAB
-- RStudio - R
+- RStudio and R
 - [glmnet package](https://hastie.su.domains/glmnet_matlab/download.html)
 
 ## Instructions
