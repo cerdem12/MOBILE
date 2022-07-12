@@ -17,7 +17,7 @@ MOBILE is XXX. More info can be found [here](https://www.birtwistlelab.com/).
 
 2. Make sure the glmnet package is downloaded and the folder is added to the MATLAB path.
 
-### Model testing and performance
+## Model testing and performance
 
 The MOBILE simulation of RPPA-RNAseq inference takes around XXX min for each of FULL or LOGO runs, in a normal desktop/laptop. 
 
