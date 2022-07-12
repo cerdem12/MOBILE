@@ -6,7 +6,7 @@ The scripts here are adapted from the LINCS [repository](https://github.com/MEP-
 
 - R and RStudio
 - R libraries: readr, dplyr, ggplot2, tidyr, stringr, LPCM, foreach
-- Cell identification data files (here we used [ImageJ](https://imagej.net/software/fiji/downloads) - [Trackmate](https://imagej.net/plugins/trackmate/getting-started)). 
+- Cell identification data files (here we used [ImageJ](https://imagej.net/software/fiji/downloads) - [TrackMate](https://imagej.net/plugins/trackmate/getting-started)). 
 
 ## Instructions
 
