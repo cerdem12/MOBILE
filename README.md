@@ -21,12 +21,10 @@ The MOBILE pipeline produces ligand-specific association networks. It integrates
 
 The MOBILE simulation of RPPA-RNAseq inference takes around 2-3 second per run (10000 instances are run in total: ~8 hours) including the save function in a normal desktop/laptop. 
 
-The RNAseq-ATACseq inference simulations were run on Clemson University Palmetto HPC and took around 8 hours per 1000 iteration of the 10000 instances (sources used per batch job: number of nodes=1, number of CPUs=40, memory=360gb).
+The RNAseq-ATACseq inference simulations were run on Clemson University [Palmetto HPC](https://www.palmetto.clemson.edu/) and took around 8 hours per 1000 iteration of the 10000 instances (sources used per batch job: number of nodes=1, number of CPUs=40, memory=360gb). Obviously, ten batch jobs were run in parallel and the results were concatanated offline afterwards. 
 
 Tested environments include: 
 
 - Ubuntu 18.04, Intel Core i7 3930 CPU @ 3.20 GHz, 32 GB DDR3, Nvidia GTX 690 GPU
-    
 - Windows 10 Education, Intel Core i5-3470 CPU @ 3.20 GHz, 8.00 GB RAM, Nvidia GTX 650 GPU, 64-bit operating system
-    
 - Windows 10 Pro, Intel Core i7-8550U CPU @ 2.00 GHz, 16.00 GB RAM, Intel UHD 620 GPU, 64-bit operating system
