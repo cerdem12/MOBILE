@@ -1,11 +1,13 @@
 %%%% This script creates a comprehensive list of all associations inferred
 %%%% for FULL and all LOGO cases, including RNAseq-ATACseq & RNAseq-RPPA 
 
-
 %% Here load all the data files FULL and LOGO (i.e. TLasBestRA_FULL.mat)
 clc
 rng(6);
 warning('off','all')
+
+addpath('glmnet','data','funcs')
+
 load('RNAseq_RPPA_lvl4_data')
 load('ATACseq_RNAseq_lvl4_data')
 load('TLasBestRA_FULL.mat')
