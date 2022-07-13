@@ -5,7 +5,7 @@ close all
 clear all
 clc
 
-addpath('glmnet','data')
+addpath('glmnet','data','funcs')
 
 %% Data/matrix pre-processing
 
