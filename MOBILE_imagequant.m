@@ -1,3 +1,6 @@
+clc
+addpath('glmnet','data','funcs')
+
 %% Load data
 load('MOBILE_IFexptsData.mat') % MOBILE valdiation experiment data
 
