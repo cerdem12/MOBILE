@@ -18,4 +18,4 @@ Journal of the Royal Statistical Society: Series B (Statistical Methodology), 74
 
 4. Noah Simon, Jerome Friedman and Trevor Hastie (2013).
 A Blockwise Descent Algorithm for Group-penalized Multiresponse and Multinomial Regression
-(in arXiv, submitted)
+(in arXiv, submitted).
