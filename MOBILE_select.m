@@ -5,6 +5,9 @@
 clc
 rng(6);
 warning('off','all')
+
+addpath('glmnet','data','funcs')
+
 load('RNAseq_RPPA_lvl4_data')
 load('ATACseq_RNAseq_lvl4_data')
 load('TLasBestRA_FULL.mat')
