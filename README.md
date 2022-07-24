@@ -6,8 +6,8 @@ The MOBILE pipeline produces ligand-specific association networks. It integrates
 ## Dependencies
 
 - MATLAB
-- RStudio and R
 - [glmnet package](https://hastie.su.domains/glmnet_matlab/download.html)
+- RStudio and R (for image quantification)
 
 ## Instructions
 
