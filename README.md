@@ -17,6 +17,10 @@ The MOBILE pipeline produces ligand-specific association networks. It integrates
 
 2. Make sure all the folders are added to the MATLAB path.
 
+3. Run the scripts in order: 
+    
+    `MOBILE_runATACseqRNAseq.m + MOBILE_runRNAseqRPPA.m => MOBILE_summarize.m => MOBILE_select.m`
+
 ## Model testing and performance
 
 The MOBILE simulation of RPPA-RNAseq inference takes around 2-3 second per run (10000 instances are run in total: ~8 hours) including the save function in a normal desktop/laptop. 
