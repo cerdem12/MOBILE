@@ -13,7 +13,7 @@ load('ATACseq_RNAseq_lvl4_data')
 load('TLasBestRA_FULL.mat')
 load('TLasBestRpR_FULL.mat')
 
-load('The rest of files')
+% load('The rest of files')
 
 %%
 % First,get the "FULL data" interactions matrix, will be a 35 column cell-array
