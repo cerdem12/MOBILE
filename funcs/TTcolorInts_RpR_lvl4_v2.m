@@ -4,7 +4,7 @@ if nargin<7
     toplot = 1;
 end
 
-[~,~,TTcolor] = plotterofconcanTGs(TLas1,TLas2,toplot);
+[~,~,TTcolor] = plotTwoMatCombos(TLas1,TLas2,toplot);
 if toplot
     c11 = colorbar;
     set(c11,'YTick',[0.5,1.5,2.5,3.5])
