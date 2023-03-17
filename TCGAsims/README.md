@@ -4,8 +4,8 @@ We show the applicability of MOBILE using tumor transcriptomic (RNAseq) and prot
 
 For 878 paired primary breast tumor cases and 27797 transcript and 457 protein levels, we determined three subtypes by looking at the transcript levels:
 
-- HER2-amplified (HER2-amp), 
-- Triple-negative (TNBC), 
+- HER2-amplified (HER2-amp)
+- Triple-negative (TNBC)
 - Estrogen and progesterone receptor positive (ER+/PR+)
 
 Following MOBILE Lasso Module procedure and using all samples, FULL breast cancer integrated association network (FULL-TCGA-IAN) is generated. 
