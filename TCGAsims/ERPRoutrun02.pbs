@@ -1,0 +1,10 @@
+#PBS -N ERPRout
+#PBS -l select=1:ncpus=16:mem=120gb:interconnect=fdr,walltime=72:00:00
+#PBS -j oe
+#PBS -m abe
+
+module add matlab/2021b gcc/9.5.0
+
+cd $PBS_O_WORKDIR
+
+taskset -c 0-$(($OMP_NUM_THREADS-1)) matlab -nodisplay -nosplash -r ERPRout_run2
