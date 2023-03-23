@@ -2,6 +2,10 @@
 
 This folder is downloaded from [here](http://hastie.su.domains/glmnet_matlab/).
 
+## Notes
+
+The mex files in this folder are usable in MATLAB versions before 2020.
+
 ## References
 
 1. Jerome Friedman, Trevor Hastie and Rob Tibshirani. (2008).
