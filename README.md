@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/512962806.svg)](https://zenodo.org/badge/latestdoi/512962806)
+
 # MOBILE
 Multi-Omics Binary Integration via Lasso Ensembles (MOBILE)
 
