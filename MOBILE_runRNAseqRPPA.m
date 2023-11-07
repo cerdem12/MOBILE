@@ -30,8 +30,8 @@ RPPAIDs = sortrows(YYvar(1:YYindices2keep,2)); % Find indeces of retained protei
 % XX = reshape(XX(randperm(numel(XX))),size(XX,1),size(XX,2));
 % YY = reshape(YY(randperm(numel(YY))),size(YY,1),size(YY,2));
 % Normalize the input matrices 
-XX3 = prepnormmats2(XX,6,1); 
-YY3 = prepnormmats2(YY,6,1);
+XX3 = prepnormmats(XX,6,1); 
+YY3 = prepnormmats(YY,6,1);
 
 %% Simulations
 clc
