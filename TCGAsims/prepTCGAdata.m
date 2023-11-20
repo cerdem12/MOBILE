@@ -1,7 +1,17 @@
+%%%% Below script prepares TCGA data into a MOBILE friendly format.
+%%%% Users need to have a "Sample Sheet" file, downloaded from the TCGA 
+%%%% repository about the data files downloaded for the analysis.
+%%%% 
+%%%% One also needs a reference file to get gene identifiers (HGNC) for
+%%%% the RPPA antibodies. Can be downloaded from:
+%%%% https://gdc.cancer.gov/about-data/gdc-data-processing/gdc-reference-files
+%%
+
 %% Get all file/folder names of TCGA data
 clc
 namingsFile = 'TCGA_sample_sheet_file_name.txt';
 files = tdfread(namingsFile);
+
 %% Find case-matched RNAseq and RPPA data folder names
 clc
 disp('Start')
