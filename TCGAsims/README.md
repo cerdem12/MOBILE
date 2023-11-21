@@ -4,7 +4,7 @@ We show the applicability of MOBILE using tumor transcriptomic (RNAseq) and prot
 
 Preprocess TCGA downloaded data files using 'prepTCGAdata' script and start MOBILE pipeline with correctly formatted data matrices as input. 
 
-For instance, in Breast Cancer (BRCA) analysis, for 878 paired primary tumor cases and 27797 transcript and 457 protein levels, we determined three subtypes by looking at the transcript levels:
+For instance, in Breast Cancer (BRCA) analysis of 878 paired primary tumor cases with 27797 transcript and 457 protein levels, we determined three subtypes by looking at the transcript levels:
 
 - HER2-amplified (HER2-amp)
 - Triple-negative (TNBC)
