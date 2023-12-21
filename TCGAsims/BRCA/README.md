@@ -1,6 +1,4 @@
-# MOBILE on TCGA data
-
-We show the applicability of MOBILE using tumor transcriptomic (RNAseq) and proteomic (RPPA) data from TCGA database. 
+# MOBILE on BRCA data
 
 Preprocess TCGA downloaded data files using 'prepBRCAdata' script and start MOBILE pipeline with correctly formatted data matrices as input. 
 
