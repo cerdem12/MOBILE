@@ -2,13 +2,8 @@
 
 We show the applicability of MOBILE using tumor transcriptomic (RNAseq) and proteomic (RPPA) data from TCGA database. 
 
-Preprocess TCGA downloaded data files using 'prepTCGAdata' script and start MOBILE pipeline with correctly formatted data matrices as input. 
+Preprocess TCGA downloaded data files using 'prepdata' scripts and start MOBILE pipeline with correctly formatted data matrices as input. 
 
-For instance, in Breast Cancer (BRCA) analysis of 878 paired primary tumor cases with 27797 transcript and 457 protein levels, we determined three subtypes by looking at the transcript levels:
+Examplary files for different cancer types are located under corresponding folders.
 
-- HER2-amplified (HER2-amp)
-- Triple-negative (TNBC)
-- Estrogen and progesterone receptor positive (ER+/PR+)
-
-Following MOBILE Lasso Module procedure and using all samples, FULL breast cancer integrated association network (FULL-TCGA-IAN) is generated. 
-Then, by excluding subtype sample columns one at a time, we ran LOGO module to obtain three subtype-specific IANs.
+Following MOBILE Lasso Module procedure using all samples, integrated association networks (FULL-IANs) are generated. Then, by excluding subtype sample columns one at a time, run LOGO module to obtain subtype-specific IANs.
