@@ -35,3 +35,6 @@ Tested environments include:
 - Windows 10 Education, Intel Core i5-3470 CPU @ 3.20 GHz, 8.00 GB RAM, Nvidia GTX 650 GPU, 64-bit operating system
 - Windows 10 Pro, Intel Core i7-8550U CPU @ 2.00 GHz, 16.00 GB RAM, Intel UHD 620 GPU, 64-bit operating system
 
+## Citation
+Erdem C, Gross SM, Heiser LM*, Birtwistle MR* (2023). MOBILE pipeline enables identification of context-specific networks and regulatory mechanisms. Nature Communications. 14, 3991.
+doi: https://doi.org/10.1038/s41467-023-39729-2
