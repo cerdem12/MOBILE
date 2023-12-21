@@ -3,13 +3,13 @@
 # MOBILE
 Multi-Omics Binary Integration via Lasso Ensembles (MOBILE)
 
-The MOBILE pipeline produces ligand-specific association networks. It integrates multi-omics datasets in a data-driven, biologically-structured manner. The gene-level association networks are used to nominate differentially enriched pathways. This pipeline is also broadly applicable to find condition specific networks using multi-omics datasets. More info can be found [here](https://www.nature.com/articles/s41467-023-39729-2).
+The MOBILE pipeline finds context-specific association networks. It integrates multi-omics datasets in a data-driven, biologically-structured manner. The gene-level association networks are used to nominate differentially enriched pathways. More info and application examples can be found [here](https://www.nature.com/articles/s41467-023-39729-2) in the MOBILE paper.
 
 ## Dependencies
 
 - MATLAB
 - [glmnet package](https://hastie.su.domains/glmnet_matlab/download.html)
-- RStudio and R (for image quantification)
+- RStudio and R (for image quantification functions used in the paper)
 
 ## Instructions
 
