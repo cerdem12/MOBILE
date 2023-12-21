@@ -1,10 +1,10 @@
 # The glmnet package
 
-This folder is downloaded from [here](http://hastie.su.domains/glmnet_matlab/).
+This folder is adapted from [here](http://hastie.su.domains/glmnet_matlab/).
 
 ## Notes
 
-The mex files in this folder are usable in MATLAB versions before 2020.
+The mex files in this folder are usable in MATLAB versions after 2020.
 
 ## References
 
