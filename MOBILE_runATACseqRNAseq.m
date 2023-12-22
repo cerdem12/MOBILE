@@ -35,7 +35,7 @@ YY3 = prepnormmats(YY,6,1);
 %% Simulations
 clc
 toplot = 0;
-rtimes = 2;
+rtimes = 2; Number of Lasso modules to run. Use 2 to verify installation, set to 10000 for MOBILE
 CVnfolds = 4;
 
 mkdir FULL_RA % Create a new directory for outputs. Naming according to input data is advised
