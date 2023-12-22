@@ -36,7 +36,7 @@ YY3 = prepnormmats(YY,6,1);
 %% Simulations
 clc
 toplot = 0; % flag to plot real YY data vs calculated YY
-rtimes = 10000; % Number of Lasso modules to run
+rtimes = 10; % Number of Lasso modules to run. Use 10 to verify installation, set to 10000 for MOBILE
 CVnfolds = 4; % Cross-validation number for glmnet package
 
 mkdir FULL_RpR % Create a new directory for outputs. Naming according to input data is advised
