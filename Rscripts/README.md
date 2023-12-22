@@ -15,4 +15,4 @@ The scripts here are adapted from the LINCS [repository](https://github.com/MEP-
 3. Update image size within the script.
 4. Run the code.
 5. Save the quantification data.
-6. Plot using the MATLAB [script](https://github.com/cerdem12/MOBILE/blob/main/MOBILE_imagequant.m).
+6. Plot using the MATLAB [script](https://github.com/cerdem12/MOBILE/blob/main/Rscripts/MOBILE_imagequant.m).
