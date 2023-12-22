@@ -14,6 +14,33 @@ load('TLasBestRA_FULL.mat')
 load('TLasBestRpR_FULL.mat')
 
 % load('The rest of files')
+disp('DONE loading')
+
+%% Prep omics data matrices
+
+% Left-hand-side (LHS) matrix: Proteins
+% Calculate row" variance
+% Find top 20% of highly variant proteins
+% Retain only top 20% of proteins/phosphoproteins
+% Find indeces of retained proteins in raw data
+
+XXraw = ATACseq_lvl42.data;
+XXvar = flipud(sortrows([std(XXraw,1,2),(1:length(XXraw))']));
+XXindices2keep = floor(0.1*size(XXraw,1));
+XX = XXraw(sortrows(XXvar(1:XXindices2keep,2)),:);
+ATACseqIDs = sortrows(XXvar(1:XXindices2keep,2));
+
+YYraw = RNAseq_lvl42.data;
+YYvar = flipud(sortrows([std(YYraw,1,2),(1:length(YYraw))']));
+YYindices2keep = floor(0.1*size(YYraw,1));
+YY = YYraw(sortrows(YYvar(1:YYindices2keep,2)),:);
+RNAseqIDs = sortrows(YYvar(1:YYindices2keep,2));
+
+ZZraw = RPPA_lvl4.data; 
+ZZvar = flipud(sortrows([std(ZZraw,1,2),(1:length(ZZraw))']));
+ZZindices2keep = floor(0.2*size(ZZraw,1)); 
+ZZ = ZZraw(sortrows(ZZvar(1:ZZindices2keep,2)),:); 
+RPPAIDs = sortrows(ZZvar(1:ZZindices2keep,2)); 
 
 %%
 % First,get the "FULL data" interactions matrix, will be a 35 column cell-array
